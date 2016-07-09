@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'LucidaSansUnicode';
+    src: url('LucidaSansUnicode.eot');
+    src: url('LucidaSansUnicode.eot?#iefix') format('embedded-opentype'),
+         url('LucidaSansUnicode.woff2') format('woff2'),
+         url('LucidaSansUnicode.woff') format('woff'),
+         url('LucidaSansUnicode.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+/*styles*/
+.container {
+	width: 910px;
+	margin: 0 auto;
+	background-color: #ccc;
+	height: 500px;
+}
