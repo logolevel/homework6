@@ -259,8 +259,6 @@ background-color: linear-gradient(to bottom, rgb(12,51,87) 0%,rgb(30,101,132) 10
 .catalog {
 	float: left;
 	width: 192px;
-	height: 200px;
-
 }
 .brands h3,
 .catalog h3 {
@@ -329,17 +327,53 @@ a.active {
 	text-decoration: underline;
 	font-style: italic;
 }
+/*productions*/
 .productions {
 	float: left;
 	width: 526px;
-	height: 200px;
 	background-color: #fff;
 background-image: linear-gradient(to top, rgba(35, 75, 93, 0.24) 0%, rgba(201, 207, 209, 0.24) 100%);
-border-radius: 3px;
+	border-radius: 3px;
+	padding-bottom: 22px;
 }
-
-
-
+.product {
+	margin-top: 15px;
+	margin-left: 23px;
+	margin-bottom: 10px;
+	display: inline-block;
+}
+.product .img-wrap {
+	display: block;
+	width: 138px;
+	height: 129px;
+	background-color: #fff;
+	border: 1px solid #a4aeb1;
+	border-radius: 7px;
+	vertical-align: middle;
+	margin-bottom: 4px;
+}
+.productions .product {
+	width: 140px;
+	text-align: center;
+}
+.product h4 {
+	font-size: 15px;
+	color: #206988;
+}
+.product figcaption {
+	font-size: 12px;
+	color: #000;
+}
+.product a {
+	text-decoration: none;
+	color: #206988;
+	font-size: 16px;
+	font-weight: bold;
+}
+.product a span {
+	font-size: 12px;
+}
+/*brands*/
 .brands {
 	float: right;
 	width: 192px;
@@ -368,6 +402,8 @@ border-radius: 3px;
 	margin-bottom: 10px;
 }
 .brands input[type="submit"] {
+	outline: 0;
+	cursor: pointer;
 	margin-top: 7px;
 	margin-left: 20px;
 	border: 0;
