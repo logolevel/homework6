@@ -262,6 +262,7 @@ background-color: linear-gradient(to bottom, rgb(12,51,87) 0%,rgb(30,101,132) 10
 	height: 200px;
 
 }
+.brands h3,
 .catalog h3 {
 	padding: 3px;
 	font-size: 13px;
@@ -328,12 +329,6 @@ a.active {
 	text-decoration: underline;
 	font-style: italic;
 }
-
-
-
-
-
-
 .productions {
 	float: left;
 	width: 526px;
@@ -342,9 +337,45 @@ a.active {
 background-image: linear-gradient(to top, rgba(35, 75, 93, 0.24) 0%, rgba(201, 207, 209, 0.24) 100%);
 border-radius: 3px;
 }
+
+
+
 .brands {
 	float: right;
 	width: 192px;
-	height: 200px;
-	background-color: red;
+	padding-left: 12px;
+	margin-top: -2px;
+}
+.brands h3 {
+	margin-right: 0;
+}
+.brands .list-title {
+	margin-left: 10px;
+	margin-right: 31px;
+}
+.brands .sub-list li {
+	list-style: none;
+}
+.brands .sub-list li{
+	font-size: 13px;
+}
+.brands .sub-list input[type="checkbox"] {
+	margin-right: 10px;
+	margin-top: 1px;
+	margin-left: -27px;
+}
+.brands .bottom-sub {
+	margin-bottom: 10px;
+}
+.brands input[type="submit"] {
+	margin-top: 7px;
+	margin-left: 20px;
+	border: 0;
+	color: #fff;
+	padding: 5px 14px;
+	background-color: rgb(12,51,87);
+background-color: -moz-linear-gradient(top, rgb(12,51,87) 0%, rgb(30,101,132) 100%);
+background-color: -webkit-linear-gradient(top, rgb(12,51,87) 0%,rgb(30,101,132) 100%);
+background-color: linear-gradient(to bottom, rgb(12,51,87) 0%,rgb(30,101,132) 100%);
+
 }
