@@ -415,3 +415,47 @@ background-color: -webkit-linear-gradient(top, rgb(12,51,87) 0%,rgb(30,101,132) 
 background-color: linear-gradient(to bottom, rgb(12,51,87) 0%,rgb(30,101,132) 100%);
 
 }
+/*section sponsors*/
+.sponsors {
+	height: 90px;
+	clear: both;
+	line-height: 123px;
+	text-align: center;
+}
+.sponsors a {
+	margin-right: 7px;
+	text-decoration: none;
+}
+.sponsors a:hover {
+	opacity: 0.5;
+}
+/*footer*/
+.footer {
+	height: 100px;
+	background-color: #213a4d;
+	text-align: center;
+}
+.footer ul {
+	padding-top: 11px;
+	margin-bottom: 10px;
+}
+.footer li {
+	display: inline-block;
+}
+.footer a {
+	color: #bec6c9;
+	text-decoration: none;
+	font-size: 12px;
+	border-right: 1px solid #bec6c9;
+	padding: 0 10px;
+}
+.footer a:hover {
+	color: #52abcb;
+}
+.footer li:last-child a {
+	border: 0;
+}
+.footer span {
+	color: #7f4740;
+	font-size: 10px;
+}
