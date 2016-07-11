@@ -37,6 +37,12 @@ background-color: -moz-linear-gradient(top, rgb(12,51,87) 0%, rgb(30,101,132) 10
 background-color: -webkit-linear-gradient(top, rgb(12,51,87) 0%,rgb(30,101,132) 100%);
 background-color: linear-gradient(to bottom, rgb(12,51,87) 0%,rgb(30,101,132) 100%);
 }
+.blue-color-gr {
+	background: rgb(31,103,135);
+background: -moz-linear-gradient(top, rgb(31,103,135) 0%, rgb(12,51,87) 100%);
+background: -webkit-linear-gradient(top, rgb(31,103,135) 0%,rgb(12,51,87) 100%);
+background: linear-gradient(to bottom, rgb(31,103,135) 0%,rgb(12,51,87) 100%);
+}
 .sprite {
 	background-image: url(../img/sprite-icons.png);
 	background-repeat: no-repeat;
@@ -189,10 +195,13 @@ box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.75);
 	color: #b1bcc0;
 	padding-right: 13px;
 	padding-top: 3px;
-	background-image: linear-gradient(to top, #000 0%, #576068 100%);
 	border: 1px solid #0d1642;
 	border-radius: 5px;
 	box-shadow: 1.5px 2.6px 5px rgba(0, 0, 0, 0.75);
+	background: rgb(77,86,99);
+background: -moz-linear-gradient(top, rgb(77,86,99) 0%, rgb(58,64,70) 8%, rgb(45,50,54) 12%, rgb(2,2,2) 100%);
+background: -webkit-linear-gradient(top, rgb(77,86,99) 0%,rgb(58,64,70) 8%,rgb(45,50,54) 12%,rgb(2,2,2) 100%);
+background: linear-gradient(to bottom, rgb(77,86,99) 0%,rgb(58,64,70) 8%,rgb(45,50,54) 12%,rgb(2,2,2) 100%);
 }
 .menu {
 	float: right;
@@ -213,10 +222,10 @@ box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.75);
 .menu a:hover {
 	background-color: #f60303;
 	color: #fff;
-	background-color: rgb(12,51,87);
-background-color: -moz-linear-gradient(top, rgb(12,51,87) 0%, rgb(30,101,132) 100%);
-background-color: -webkit-linear-gradient(top, rgb(12,51,87) 0%,rgb(30,101,132) 100%);
-background-color: linear-gradient(to bottom, rgb(12,51,87) 0%,rgb(30,101,132) 100%);
+	background: rgb(31,103,135);
+background: -moz-linear-gradient(top, rgb(31,103,135) 0%, rgb(12,51,87) 100%);
+background: -webkit-linear-gradient(top, rgb(31,103,135) 0%,rgb(12,51,87) 100%);
+background: linear-gradient(to bottom, rgb(31,103,135) 0%,rgb(12,51,87) 100%);
 
 }
 .basket {
@@ -518,10 +527,12 @@ a.active {
 .productions {
 	float: left;
 	width: 526px;
-	background-color: #fff;
-background-image: linear-gradient(to top, rgba(35, 75, 93, 0.24) 0%, rgba(201, 207, 209, 0.24) 100%);
 	border-radius: 3px;
 	padding-bottom: 22px;
+	background: rgb(228,231,232);
+background: -moz-linear-gradient(top, rgb(228,231,232) 0%, rgb(148,167,176) 100%);
+background: -webkit-linear-gradient(top, rgb(228,231,232) 0%,rgb(148,167,176) 100%);
+background: linear-gradient(to bottom, rgb(228,231,232) 0%,rgb(148,167,176) 100%);
 }
 .product {
 	margin-top: 15px;
