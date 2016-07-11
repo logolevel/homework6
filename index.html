@@ -68,7 +68,7 @@
 					<p>Год выпуска<span> автомобиля:</span></p>
 					<p>Комлектация</p>
 					</div><!--end title-input-->
-					<div class="inputs-auto">
+					<div class="inputs-auto select-style">
 						<select form="form-auto">
 							<option value="mark"></option>
 						</select>
@@ -91,7 +91,7 @@
 					<p>Год выпуска<span> автомобиля:</span></p>
 					<p>Комлектация</p>
 					</div><!--end title-input-->
-					<div class="inputs-auto">
+					<div class="inputs-auto select-style">
 						<select form="form-auto">
 							<option value="mark"></option>
 						</select>
@@ -120,7 +120,7 @@
 					<p>R</p>
 					<p>Сезон:</p>
 				</div><!--end left-tire-->
-				<div class="right-tire">
+				<div class="right-tire select-style">
 					<select form="filter-tire">
 						<option value="size">145</option>
 					</select>&nbsp;&nbsp;/&nbsp;&nbsp;
@@ -144,6 +144,43 @@
 					</form>
 				</div><!--end right-tire-->
 			</div><!--end filter-tire-->
+
+		<div class="filter-disk filter-style select-style clearfix">
+			<div class="filter-disk-title font-style">
+				<span>Поиск дисков</span>
+			</div>
+			<div class="disk-left">
+				<p>Диаметр <span>диска:</span></p>
+				<p>Количество <span>крепёжных отверстий:</span></p>
+				<p>Диаметр <span>расположенных крепёжных отверстий:</span></p>
+			</div><!--end disk-left-->
+			<div class="disk-middle">
+				<select form="disk-filter">
+					<option value="diameter">14</option>
+				</select>
+				<select form="disk-filter">
+					<option value="amount">3</option>
+				</select>
+				<select form="disk-filter">
+					<option value="diametr-two">12</option>
+				</select>
+			</div><!--end disk-middle-->
+
+			<div class="disk-right">
+				<p>ДЦО<span>(диаметр центрального отверстия)</span></p>
+				<select form="disk-filter">
+					<option value="dco">12</option>
+				</select>
+				<p>ЕТ<span>(вылет диска)</span></p>
+				<select form="disk-filter">
+					<option value="dco">12</option>
+				</select>
+			</div><!--end disk-right-->
+			<form action="#" id="disk-filter">
+				<input class="btn-style" type="submit" value="Поиск...">
+			</form>
+		</div><!--end filter-disk-->
+
 		</div><!--end filters-->
 		<div class="content clearfix">
 			<aside class="catalog">

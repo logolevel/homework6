@@ -304,14 +304,17 @@ background-color: linear-gradient(to bottom, rgb(12,51,87) 0%,rgb(30,101,132) 10
 	float: right;
 	margin-top: -5px;
 }
-.inputs-auto select {
+.select-style select {
 	outline: 0;
-	width: 100px;
 	height: 18px;
+		background-color: #fff;
+box-shadow: inset 0.5px 0.9px 1px rgba(0, 0, 0, 0.75);
+
+}
+.inputs-auto select {
+	width: 100px;
 	margin-left: 11px;
 	margin-bottom: 4px;
-	background-color: #fff;
-box-shadow: inset 0.5px 0.9px 1px rgba(0, 0, 0, 0.75);
 }
 select.short-select {
 	width: 56px;
@@ -376,7 +379,65 @@ select.short-select {
 .right-tire input[type="submit"] {
 	margin-left: 62px;
 }
-
+/*filter-disk*/
+.filter-disk {
+	width: 268px;
+	float: right;
+	margin-right: 5px;
+}
+.filter-disk-title {
+	font-size: 12px;
+	margin-top: 3px;
+	margin-left: 9px;
+}
+.disk-left {
+	width: 87px;
+	float: left;
+	margin-top: 9px;
+	margin-left: 16px;
+}
+.disk-left p {
+	margin-bottom: 4px;
+}
+.disk-left span {
+	color: #77858b;
+}
+.disk-middle {
+	width: 60px;
+	float: left;
+	margin-top: 6px;
+	margin-left: 3px;
+}
+.disk-middle select {
+	height: 17px;
+	width: 57px;
+	margin-bottom: 13px;	
+}
+.disk-right {
+	width: 85px;
+	float: right;
+	margin-top: -10px;
+	margin-right: 5px;
+	padding-left: 9px;
+	border-left: 1px solid #77858b;
+}
+.disk-right span {
+	display: block;
+	color: #77858b;
+}
+.disk-right p {
+	margin-bottom: 2px;
+}
+.disk-right select {
+	width: 61px;
+}
+.filter-disk form {
+	clear: both;
+}
+.filter-disk input[type="submit"] {
+	margin-left: 191px;
+	margin-top: -6px;
+}
 /*section content*/
 .content {
 	margin-top: 162px;
