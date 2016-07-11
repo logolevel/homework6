@@ -56,7 +56,7 @@
 		</header>
 		<div class="filters clearfix">
 			<div class="filter-auto filter-style clearfix">
-				<div class="filter-title">
+				<div class="filter-title font-style">
 					<span>Диски</span>
 					<span class="filter-center-title">Поиск по автомобилю</span>
 					<span>Шины</span>				
@@ -69,16 +69,16 @@
 					<p>Комлектация</p>
 					</div><!--end title-input-->
 					<div class="inputs-auto">
-						<select id="form-auto">
+						<select form="form-auto">
 							<option value="mark"></option>
 						</select>
-						<select id="form-auto">
+						<select form="form-auto">
 							<option value="model"></option>
 						</select>
-						<select class="short-select" id="form-auto">
+						<select class="short-select" form="form-auto">
 							<option value="year"></option>
 						</select>
-						<select id="form-auto">
+						<select form="form-auto">
 							<option value="coplect"></option>
 						</select>
 					</div><!--end inputs-auto-->
@@ -92,29 +92,59 @@
 					<p>Комлектация</p>
 					</div><!--end title-input-->
 					<div class="inputs-auto">
-						<select id="form-auto">
+						<select form="form-auto">
 							<option value="mark"></option>
 						</select>
-						<select id="form-auto">
+						<select form="form-auto">
 							<option value="model"></option>
 						</select>
-						<select class="short-select" id="form-auto">
+						<select class="short-select" form="form-auto">
 							<option value="year"></option>
 						</select>
-						<select id="form-auto">
+						<select form="form-auto">
 							<option value="coplect"></option>
 						</select>
 					</div><!--end inputs-auto-->
 				</div><!--end right-auto -->
 				<form action="#" id="form-auto">
-					<input type="submit" value="Поиск...">
+					<input class="btn-style" type="submit" value="Поиск...">
 				</form>
 			</div><!--end filter-auto-->
 
-			<div class="filter-tire filter-style">
-				123
-			</div>
-		</div><!--filters-->
+			<div class="filter-tire filter-style clearfix">
+				<div class="filter-tire-title font-style">
+					<span>Поиск шин</span>
+				</div>
+				<div class="left-tire">
+					<p>Размер:</p>
+					<p>R</p>
+					<p>Сезон:</p>
+				</div><!--end left-tire-->
+				<div class="right-tire">
+					<select form="filter-tire">
+						<option value="size">145</option>
+					</select>&nbsp;&nbsp;/&nbsp;&nbsp;
+					<select form="filter-tire">
+						<option value="size-2"></option>
+					</select>
+					<select form="filter-tire">
+						<option value="r-value">12</option>
+					</select>
+					<form action="#" id="filter-tire">
+					<label>
+						<input type="checkbox" name="tire-check">лето
+					</label>
+					<label>
+						<input type="checkbox" name="tire-check">зима
+					</label>
+					<label>
+						<input type="checkbox" name="tire-check">всесез
+					</label>
+					<input class="btn-style" type="submit" value="Поиск...">
+					</form>
+				</div><!--end right-tire-->
+			</div><!--end filter-tire-->
+		</div><!--end filters-->
 		<div class="content clearfix">
 			<aside class="catalog">
 				<h3 class="shadow-block"><span class="sprite list blue-color round"></span>Каталог продукции:</h3>
