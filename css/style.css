@@ -82,9 +82,9 @@ background: linear-gradient(to bottom, rgb(31,103,135) 0%,rgb(12,51,87) 100%);
 	border-radius: 4px;
 	box-shadow: 1.5px 2.6px 3px rgba(150, 150, 150, 0.75);
 	position: relative;
-	margin-top: -6px;
+	margin-top: -5px;
 	margin-left: 16px;
-	padding: 4px 6px 3px;
+	padding: 5px 6px 3px;
 	height: 26px;
 	font-family: "LucidaSansUnicode", Arial, sans-serif;
 	font-size: 11px;
@@ -106,18 +106,20 @@ background: linear-gradient(to bottom, rgb(31,103,135) 0%,rgb(12,51,87) 100%);
 .registration input[type="text"],
 .registration input[type="password"] {
 	width: 115px;
-	height: 17px;
+	height: 16px;
 	background-color: #fff;
 	border: 1px solid #9ba1a3;
 	border-radius: 2px;
-	padding-left: 3px;
-	margin-top: 0;
+	padding-left: 5px;
+	margin-top: -1px;
 	outline: 0;
 	font-size: 11px;
 	padding-bottom: 3px;
+	letter-spacing: 0.6px;
 }
 .registration input[type="password"] {
 	margin-left: 5px;
+	padding-left: 3px;
 }
 .registration input[type="submit"] {
 	border: 0;
@@ -148,9 +150,10 @@ a.gray-link {
 	color: #bfbfbf;
 	text-decoration: underline;
 	margin-left: 15px;
-	margin-right: 6px;
+	margin-right: 3px;
 	font-size: 11px;
-	letter-spacing: 0.8px;
+	letter-spacing: 1px;
+	line-height: 14px;
 }
 a.gray-link:hover {
 	text-decoration: none;
@@ -167,7 +170,7 @@ box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.75);
 	float: right;
 	vertical-align: middle;
 	padding: 2px;
-	margin-top: -4px;
+	margin-top: -5px;
 	margin-right: 7px;
 }
 .home {
@@ -191,7 +194,7 @@ box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.75);
 }
 /*baner*/
 .baner img{
-	margin-top: 10px;
+	margin-top: 9px;
 	margin-bottom: 4px;
 	position: relative;
 }
@@ -199,7 +202,7 @@ box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.75);
 	width: 265px;
 	height: 117px;
 	position: absolute;
-	top: 97px;
+	top: 96px;
 }
 /*nav*/
 .wrap-menu {
@@ -207,7 +210,7 @@ box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.75);
 	height: 34px;
 	color: #b1bcc0;
 	padding-right: 13px;
-	padding-top: 2px;
+	padding-top: 3px;
 	border: 1px solid #0d1642;
 	border-radius: 5px;
 	box-shadow: 1.5px 2.6px 5px rgba(0, 0, 0, 0.75);
@@ -273,7 +276,7 @@ background: linear-gradient(to bottom, rgb(31,103,135) 0%,rgb(12,51,87) 100%);
 }
 /*section filters*/
 .filters {
-	margin-top: 9px;
+	margin-top: 10px;
 	margin-left: 5px;
 	font-family: Arial, sans-serif;
 	font-size: 10px;
@@ -466,12 +469,15 @@ select.short-select {
 }
 /*section content*/
 .content {
-	margin-top: 160px;
+	margin-top: 161px;
 	color: #114165;
 }
 .catalog {
 	float: left;
 	width: 192px;
+}
+.catalog .bolt-pxl {
+	margin-top: 2px;
 }
 .brands h3,
 .catalog h3 {
@@ -536,7 +542,7 @@ select.short-select {
 	font-size: 13px;
 	color: #114165;
 	letter-spacing: 0.3px;
-	background: url(../img/sprite-icons.png) no-repeat 0 -189px;
+	background: url(../img/sprite-icons.png) no-repeat -1px -190px;
 	transition: none;
 	padding-left: 10px;
 }
@@ -584,11 +590,12 @@ background: linear-gradient(to bottom, rgb(228,231,232) 0%,rgb(148,167,176) 100%
 .product h4 {
 	font-size: 15px;
 	color: #206988;
+	letter-spacing: 0.7px;
 }
 .product figcaption {
 	font-size: 12px;
 	color: #000;
-	letter-spacing: 0.5px;
+	letter-spacing: 0.75px;
 	font-weight: bold;
 }
 .product a {
@@ -597,9 +604,14 @@ background: linear-gradient(to bottom, rgb(228,231,232) 0%,rgb(148,167,176) 100%
 	font-size: 16px;
 	font-weight: bold;
 	font-style: italic;
+	margin-left: 3px;
+	letter-spacing: 0.5px;
 }
 .product a span {
 	font-size: 12px;
+}
+.second-column {
+	margin-left: 25px;
 }
 /*brands*/
 .brands {
@@ -615,6 +627,9 @@ background: linear-gradient(to bottom, rgb(228,231,232) 0%,rgb(148,167,176) 100%
 	margin-left: 10px;
 	margin-right: 31px;
 }
+.brands .dsk-designer {
+	margin-top: -4px;
+}
 .brands .sub-list ul {
 	padding-top: 11px;
 }
@@ -629,12 +644,13 @@ background: linear-gradient(to bottom, rgb(228,231,232) 0%,rgb(148,167,176) 100%
 	margin-left: -27px;
 }
 .brands .bottom-sub {
-	margin-bottom: 10px;
+	margin-bottom: 12px;
+	margin-top: 2px;
 }
 .brands input[type="submit"] {
 	outline: 0;
 	cursor: pointer;
-	margin-top: 6px;
+	margin-top: 1px;
 	margin-left: 20px;
 	border: 0;
 	color: #fff;
@@ -650,20 +666,48 @@ background-color: linear-gradient(to bottom, rgb(12,51,87) 0%,rgb(30,101,132) 10
 	height: 90px;
 	clear: both;
 	text-align: center;
+	position: relative;
 }
 .sponsors a {
-	margin-right: 7px;
+	/*margin-right: 7px;*/
 	text-decoration: none;
 	line-height: 123px;
+	position: absolute;
 }
 .sponsors a:hover {
 	opacity: 0.5;
 }
-a.asd {
-	padding-left: 5px;
+.a-1 {
+	top: 0;
+	left: 118px;
 }
-a.tnx-designer-tf {
-	padding-left: 2px;
+.a-2 {
+	top: 0;
+	left: 213px;
+}
+.a-3 {
+	top: 0;
+	left: 322px;
+}
+.a-4 {
+	top: 0;
+	left: 417px;
+}
+.a-5 {
+	top: 0;
+	left: 486px;
+}
+.a-6 {
+	top: 0;
+	right: 277px;
+}
+.a-7 {
+	top: 0;
+	right: 203px;
+}
+.a-8 {
+	top: 0;
+	right: 115px;
 }
 /*footer*/
 .footer {
