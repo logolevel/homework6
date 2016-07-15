@@ -585,7 +585,10 @@ background: linear-gradient(to bottom, rgb(228,231,232) 0%,rgb(148,167,176) 100%
 	margin-bottom: 4px;
 }
 .tnx-designer-product {
-	margin-top: 19px;
+	margin-top: 17px;
+}
+.tnx-designer-product .img-wrap {
+	margin-top: 3px;
 }
 .product h4 {
 	font-size: 15px;
@@ -597,6 +600,17 @@ background: linear-gradient(to bottom, rgb(228,231,232) 0%,rgb(148,167,176) 100%
 	color: #000;
 	letter-spacing: 0.75px;
 	font-weight: bold;
+}
+.product__name1 {
+	letter-spacing: 0.55px;
+	margin-left: 6px;
+}
+.product__name2 {
+	letter-spacing: 0.55px;
+}
+.product__name3 {
+	letter-spacing: 0.9px;
+	margin-left: -5px;
 }
 .product a {
 	text-decoration: none;
@@ -612,6 +626,12 @@ background: linear-gradient(to bottom, rgb(228,231,232) 0%,rgb(148,167,176) 100%
 }
 .second-column {
 	margin-left: 25px;
+}
+.second-column .img-wrap {
+	margin-left: -2px;
+}
+.row2 {
+	margin-top: 1px;
 }
 /*brands*/
 .brands {
